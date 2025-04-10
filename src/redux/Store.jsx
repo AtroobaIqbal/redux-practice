@@ -3,4 +3,4 @@ import counterReducer from './Reducer';
 
 const store = createStore(counterReducer);
 
-export default store;
+export default store; // export the store
