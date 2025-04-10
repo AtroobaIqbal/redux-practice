@@ -1,6 +1,6 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
-import { increment, decrement } from '../redux/Actions';
+import { increment, decrement } from '../redux/actions';
 
 const Controls = () => {
   const dispatch = useDispatch();
